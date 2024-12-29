@@ -1,0 +1,221 @@
+ /* Target phones (portrait and landscape) */
+ @media only screen and (max-width: 767px) {
+    .s1 {
+        display: none;
+    }
+}
+
+.st2 {
+    border-radius: 30px;
+}
+
+.s1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.themeColor {
+    background-color: #002b2a;
+}
+
+.profileImg {
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #809d98;
+}
+
+.btn-left-align {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.active {
+    background-color: white;
+    color: #002b2a;
+}
+
+.hoverBtn button{
+color: white;
+}
+
+.hoverBtn:hover {
+    background-color: #335755;
+    color: black;
+}
+a:hover .btn {
+color: white;
+}
+
+a.active .btn {
+color: black;
+}
+
+
+.progress {
+    width: 100%;
+    background-color: rgb(167, 162, 162);
+    border-radius: 5px;
+    height: 10px;
+    margin: 20px 0;
+}
+
+.progress-bar {
+    width: 0%;
+    background-color: #4caf50;
+    /* Green color */
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    /* Vertical centering of text */
+    color: white;
+    font-weight: bold;
+}
+
+.progress-text {
+    text-align: center;
+    margin-top: 5px;
+    color: #4caf50;
+    /* Green color */
+}
+
+.iconImage {
+    align-items: center;
+    background-color: #fff;
+    border: 5px solid #d7ebe7;
+    border-radius: 15px;
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    width: 55px;
+}
+
+.MoreSavedrow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.moreSavedcard {
+    border: 5px solid #d7ebe7;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    max-width: 100px;
+    min-width: 100px;
+}
+
+.skillSection {
+    margin-top: 20px;
+    overflow-y: hidden;
+    height: 200px;
+}
+
+.skillSetCard {
+    margin-top: 20px;
+    background-color: #002b2a;
+    padding: 18px 0px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+
+    h5 {
+        text-transform: capitalize;
+    }
+
+}
+
+.first {
+    animation: first 2s linear infinite;
+}
+
+.second {
+    animation: second 2s linear infinite;
+}
+
+@keyframes first {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-80px);
+    }
+}
+
+@keyframes second {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-80px);
+    }
+}
+
+/* form section */
+.form-Section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.image-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-picker {
+    background-color: #002b2a;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.image-picker:hover {
+    background-color: #064a3f;
+}
+
+.fullwidth {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.ctaButton {
+    background-color: #002b2a;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.ctaButton:hover {
+    background-color: #064a3f;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input::placeholder {
+    color: #aaa;
+}

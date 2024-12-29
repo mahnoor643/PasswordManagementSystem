@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/about.css">
+    <title>Dashboard</title>
+    <style>
+        .bg-color{
+            background-color: #ebf1f0;
+        }
+        .bg-btn{
+            background-color: brown !important;
+        }
+        .text-hd{
+            color: #212529;
+        }
+        .text-brown {
+            color:brown !important;
+        }
+        .progress-bar{
+            background-color: brown;
+        }
+    </style>
+    
+</head>
+
+<body class="themeColor">
+    <div class="container-fluid p-4">
+        <div class="row">
+            <!-- sidebar code -->
+            <div class="col-12 col-md-2 col-lg-2 s1 mt-4">
+                <img src="image/WhatsApp Image 2024-05-28 at 12.23.53 AM.jpeg" class="profileImg" alt="">
+                <br>
+                <p class="emailText text-light">mahnoort643@gmail.com</p><br><br>
+                <a href="dashboard.html" class="w-100 mb-2 hoverBtn rounded"><button class=" btn-left-align btn w-100"><i
+                            class="bi bi-house pe-2"></i>Home</button></a>
+                <a href="categoryDisplay.html" class="w-100 mb-2 hoverBtn rounded"><button
+                        class="btn-left-align btn w-100"><i
+                            class="bi bi-list-check pe-2"></i>Categories</button></a>
+                <a href="aboutUs.html" class="w-100 mb-2  active rounded"><button class=" btn-left-align btn w-100"><i
+                            class="bi bi-file-person pe-2"></i>About us</button></a>
+            </div>
+
+            <!-- content div -->
+            <div class="col-12 col-md-10 col-lg-10">
+                <div class="container-fluid p-4 bg-light st2">
+
+                    <!-- first row -->
+                    <div class="row">
+                        <div class="col-8">
+                            <h1 style="font-size: 26px;"><b>Password Management System</b></h1>
+                        </div>
+                        <div class="col-4">
+                            <!-- <div class="input-group mb-3" style="border-color: #002b2a;">
+                                <input type="text" style="border-color: #002b2a;" class="form-control" id="search-input"
+                                    placeholder="e.g., Google or Github" aria-label="Recipient's username"
+                                    aria-describedby="button-addon2" oninput="searchCategory()">
+                                <button class="btn btn-outline-dark" type="button" id="button-addon2"><i
+                                        class="bi bi-search"></i></button>
+                            </div> -->
+                            <div class="dropdown">
+                                <ul class="dropdown-menu w-100" id="dropdown-menu"></ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- second row -->
+                    <div class="row">
+                        <div class="col-8">
+                            <h1 style="font-size: 26px; color: brown;"><b>ABOUT</b></h1>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <div>
+                            <section id="resume" class="section bg-color-1">
+                                <div class="container px-lg-5">
+                                    
+                                    <div class="row gx-5">
+                                        <!-- My Education -->
+                                        <div class="col">
+                                            <h2 class="text-6 text-hd fw-600 mb-4">My Education</h2>
+                                            <div class="bg-color rounded p-4 mb-4">
+                                                <p class="badge bg-btn text-2 fw-400">2023 - 2026</p>
+                                                <h3 class="text-5 text-hd">Bachelor of Software Engineering</h3>
+                                                <p class="text-brown fw-bold">Jinnah University for Women</p>
+                                                <p class="text-hd-50 mb-0">Pursuing a Bachelor’s degree in Software Engineering from Jinnah University for Women, building a strong foundation in software development and technology.</p>
+                                            </div>
+                                            <div class="bg-color rounded p-4 mb-4">
+                                                <p class="badge bg-btn text-2 fw-400">2021 - 2025</p>
+                                                <h3 class="text-5 text-hd">Diploma in Software Engineering</h3>
+                                                <p class="text-brown fw-bold">Aptech North Nazimabad, Karachi</p>
+                                                <p class="text-hd-50 mb-0">Developing a comprehensive foundation in software development, programming languages, system design, and emerging technologies, preparing for a dynamic career in the tech industry.</p>
+                                            </div>
+                                            <div class="bg-color rounded p-4 mb-4">
+                                                <p class="badge bg-btn text-2 fw-400">2019 - 2021</p>
+                                                <h3 class="text-5 text-hd">Intermediate</h3>
+                                                <p class="text-brown fw-bold">Apwa Government College for Women, Karimabad</p>
+                                                <p class="text-hd-50 mb-0">Completed Intermediate in Pre-Medical from APWA Government College, building a strong foundation in biology, chemistry, and physics.</p>
+                                            </div>
+                                        </div>
+                
+                                        <!-- My Experience -->
+                                        <div class="col">
+                                            <h2 class="text-6 text-hd fw-600 mb-4">My Experience</h2>
+                                            <div class="bg-color rounded p-4 mb-4">
+                                                <p class="badge bg-btn text-2 fw-400">July 2024 - August</p>
+                                                <h3 class="text-5 text-hd">Front-end Developer Internship</h3>
+                                                <p class="text-brown fw-bold">Remote Work</p>
+                                                <p class="text-hd-50 mb-0">Completed an internship as a Front-End Developer, where I gained hands-on experience in creating user-friendly and responsive web interfaces.</p>
+                                            </div>
+                                            <div class="bg-color rounded p-4 mb-4">
+                                                <p class="badge bg-btn text-2 fw-400">July 2023 - September 2023</p>
+                                                <h3 class="text-5 text-hd">Php / .net Core Developer</h3>
+                                                <p class="text-brown fw-bold">Aptech Pakistan</p>
+                                                <p class="text-hd-50 mb-0"><br>Experienced PHP Full Stack Developer with participation in APTECH TechWiz competition and .NET Core Developer with involvement in APTECH Vision competition.</p>
+                                            </div>
+                                            <div class="bg-color rounded p-4 mb-4">
+                                                <p class="badge bg-btn text-2 fw-400">- - -</p>
+                                                <h3 class="text-5 text-hd">Semester-End Projects Specialist at APTECH</h3>
+                                                <p class="text-brown fw-bold">Aptech North Nazimabad</p>
+                                                <p class="text-hd-50 mb-0">Gained hands-on experience by completing multiple semester-end projects at APTECH, applying a range of technologies to deliver effective solutions.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- My Skills -->
+                                    <h2 class="text-6 text-hd fw-600 mt-4 mb-4">My Skills</h2>
+                                    <div class="row gx-5">
+                                        <div class="col-md-6">
+                                            <p class="text-hd fw-bold text-start mb-2">Php <span class="float-end">90%</span></p>
+                                            <div class="progress progress-sm bg-color mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p class="text-hd fw-bold text-start mb-2">HTML/CSS <span class="float-end">95%</span></p>
+                                            <div class="progress progress-sm bg-color mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p class="text-hd fw-bold text-start mb-2">JavaScript <span class="float-end">80%</span></p>
+                                            <div class="progress progress-sm bg-color mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p class="text-hd fw-bold text-start mb-2">Flutter <span class="float-end">70%</span></p>
+                                            <div class="progress progress-sm bg-color mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p class="text-hd fw-bold text-start mb-2">React JS <span class="float-end">70%</span></p>
+                                            <div class="progress progress-sm bg-color mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p class="text-hd fw-bold text-start mb-2">.net Core <span class="float-end">60%</span></p>
+                                            <div class="progress progress-sm bg-color mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p class="text-hd fw-bold text-start mb-2">SQL <span class="float-end">90%</span></p>
+                                            <div class="progress progress-sm bg-color mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p class="text-hd fw-bold text-start mb-2">Firebase <span class="float-end">70%</span></p>
+                                            <div class="progress progress-sm bg-color mb-4">
+                                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+
+                  
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

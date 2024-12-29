@@ -1,0 +1,48 @@
+ /* Target phones (portrait and landscape) */
+ @media only screen and (max-width: 767px) {
+    .s1 {
+        display: none;
+    }
+}
+
+.st2 {
+    border-radius: 30px;
+}
+
+.s1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.themeColor {
+    background-color: #002b2a;
+}
+
+.profileImg {
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #809d98;
+}
+
+.btn-left-align {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.active {
+    background-color: white;
+    color: #002b2a;
+}
+
+a:hover .btn {
+color: white;
+}
+
+a.active .btn {
+color: black;
+}
+
+.hoverBtn button{
+color: white;
+}
