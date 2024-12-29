@@ -28,13 +28,6 @@ This is a **Password Management System** front-end project that utilizes **Data 
 
 ---
 
-## 📂 **Project Structure**
-- **`index.html`**: Main front-end file for the application.
-- **`styles.css`**: Contains all the styling rules for a modern UI.
-- **`script.js`**: Handles logic for categorization and password operations.
-
-
----
 
 ## 📚 **How to Use**
 1. Clone the repository:
